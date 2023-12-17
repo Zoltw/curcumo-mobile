@@ -15,7 +15,7 @@ import com.example.curcumo.model.Product
 import com.example.curcumo.utils.ProductADP
 import com.example.curcumo.databinding.ShoppingListFragmentBinding
 
-class ShoppingListFragment : Fragment(R.layout.shopping_list_fragment) {
+class ListShopFragment : Fragment(R.layout.shopping_list_fragment) {
 
     private lateinit var binding: ShoppingListFragmentBinding
     private lateinit var productAdapter: ProductADP

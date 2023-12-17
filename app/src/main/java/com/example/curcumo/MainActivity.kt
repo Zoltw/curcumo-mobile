@@ -4,8 +4,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.curcumo.fragment.ProductAdditionFragment
-import com.example.curcumo.fragment.ShoppingListFragment
+import com.example.curcumo.fragment.AddProductFragment
+import com.example.curcumo.fragment.ListShopFragment
 import com.example.curcumo.databinding.MainActivityBinding
 
 class MainActivity : AppCompatActivity() {
@@ -35,16 +35,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupInitialFragment() {
-        replaceFragment(ProductAdditionFragment())
+        replaceFragment(AddProductFragment())
     }
 
     private fun setupButtonListeners() {
         activityBinding.apply {
             productAdditionFragmentButton.setOnClickListener {
-                replaceFragment(ProductAdditionFragment())
+                replaceFragment(AddProductFragment())
             }
             shoppingListFragmentButton.setOnClickListener {
-                replaceFragment(ShoppingListFragment())
+                replaceFragment(ListShopFragment())
             }
         }
     }

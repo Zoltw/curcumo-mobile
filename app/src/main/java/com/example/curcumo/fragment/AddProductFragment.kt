@@ -15,7 +15,7 @@ import com.example.curcumo.R
 import com.example.curcumo.model.Product
 import com.example.curcumo.databinding.ProductAdditionFragmentBinding
 
-class ProductAdditionFragment : Fragment(R.layout.product_addition_fragment) {
+class AddProductFragment : Fragment(R.layout.product_addition_fragment) {
 
     private lateinit var binding: ProductAdditionFragmentBinding
     private val mainViewModel: MainViewModel by lazy {
