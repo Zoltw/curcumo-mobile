@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Curcumo</string>
+    <string name="product_name">produkt</string>
+    <string name="add">Dodaj</string>
+    <string name="new_product">Nowy produkt</string>
+    <string name="add_new_product">Dodaj produkt</string>
+    <string name="shopping_list">Lista</string>
+    <string name="delete">Usuń</string>
+    <string name="product_added">Dodano produkt</string>
+    <string name="product_deleted">Usunięto produkt</string>
+</resources>

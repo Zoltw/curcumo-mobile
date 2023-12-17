@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen1">
+
+    <TextView
+        android:id="@+id/brandTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="@string/app_name"
+        android:textSize="55sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/newProductTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:text="@string/new_product"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newProductTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/product_name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextProductName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:width="200dp"
+        android:background="@color/button"
+        android:text="@string/add"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
